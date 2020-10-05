@@ -1,4 +1,5 @@
 @echo off
+cd %~dp0
 echo Installing message file
 copy RaccineMessageDLL.dll c:\Windows\System32\RaccineMessageDLL.dll
 reg add HKLM\SYSTEM\CurrentControlSet\Services\EventLog\Application\Raccine
